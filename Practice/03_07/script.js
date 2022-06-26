@@ -7,3 +7,16 @@
  * - Find an object that has another object inside of it to create a nested object.
  * - Test your objects in the browser console by accessing the entire object and its specific properties.
  */
+
+const house = {
+  rooms: 4,
+  floors: 3,
+  address: "tokyo shibuya-ku",
+  latitude: 1234.5678,
+  longitude: 1234.5678,
+  office: {
+    desks: 2,
+    computers: 3,
+    aircon: true,
+  },
+};
